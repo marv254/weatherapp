@@ -1,5 +1,5 @@
 const key = "your apikey";
-// ger weather information
+// get weather information
 const getWeather = async (id) => {
   const base = "http://dataservice.accuweather.com/currentconditions/v1/";
   const query = `${id}?apikey=${key}`;
